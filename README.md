@@ -44,32 +44,50 @@ This project is designed as a **long-term, scalable GenAI system**, not just a d
 Open-Intelligence-document/
 │
 ├── app/
+
 │ ├── loaders.py # PDF loading
+
 │ ├── chunking.py # Text chunking
+
 │ ├── embeddings.py # Embedding + FAISS logic
+
 │ ├── retriever.py # Vector retrieval
+
 │ ├── rag_chain.py # RAG pipeline
+
 │ ├── intent_router.py # Summary vs RAG routing
+
 │ ├── summarizer.py # Document summarization
+
 │ ├── summary_store.py # Persist summaries
+
 │
 ├── data/
+
 │ ├── documents/ # PDF documents
+
 │ └── summaries.json # Stored summaries
+
 │
 ├── vector_store/
+
 │ ├── index.faiss # FAISS vectors
+
 │ └── index.pkl # FAISS metadata
+
 │
 ├── api/
+
 │ └── main.py # FastAPI entrypoint
+
 │
 ├── main.py # CLI entrypoint
-├── README.md
-├── pyproject.toml
-└── .gitignore
----
 
+├── README.md
+
+├── pyproject.toml
+
+└── .gitignore
 
 ---
 
@@ -151,4 +169,5 @@ BE Computer Engineering
 Focused on Data & GenAI Systems
 
 ## 🏗️ Project Structure
+
 
